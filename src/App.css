@@ -1,0 +1,31 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.dropzone {
+  width: 400px;
+  height: 200px;
+  border: 2px dashed #007bff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+.uploaded-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.predictions {
+  margin-top: 20px;
+}
+
+.prediction {
+  font-size: 18px;
+  margin: 10px 0;
+}
